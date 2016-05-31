@@ -53,7 +53,7 @@ export PS1="\[\e]0;\w\a\]\u@\h:\[\e[92m\]\w\[\e[m\]:\[\e[95m\]\`parse_git_branch
 # ==============================================================================
 
 # HOME
-export JAVA_HOME=/usr/lib/jvm/jdk
+export JAVA_HOME=$HOME/tool/jdk
 
 # Option
 export MAVEN_OPTS="-Xms128m -Xmx256m"
